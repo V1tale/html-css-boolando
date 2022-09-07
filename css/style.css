@@ -14,7 +14,7 @@ img {
 }
 header {
     background-color: #ff6900;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 1.4rem;
     position:fixed;
     top:0;
@@ -26,6 +26,7 @@ header {
 .container {
     width: 70%;
     margin: auto;
+    max-width: 1200px;
 }
 .flex-container {
     display: flex;
@@ -43,7 +44,7 @@ header {
     padding-top: 10px;
 }
 .central-part > img {
-    width: 40%;
+    width: 150px;
     vertical-align: middle;
 }
 .left-part {
