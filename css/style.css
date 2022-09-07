@@ -14,14 +14,14 @@ img {
 }
 header {
     background-color: #ff6900;
-    /* padding: 10px 0; */
+    padding: 10px 0;
     font-size: 1.4rem;
     position:fixed;
     top:0;
     left:0;
     z-index: 2;
     width: 100%;
-    padding: 10px;
+
 }
 .container {
     width: 70%;
@@ -37,23 +37,29 @@ header {
     flex-grow: 1;
     text-align: center;
 }
-#logo {
-    height: 50px;
-}
 .right-part {
-    width: 100px;
     color: white;
     text-align: right;
-
+    padding-top: 10px;
 }
 .central-part > img {
-    width: 10%;
+    width: 40%;
     vertical-align: middle;
-    padding-left: 5%;
+}
+.left-part {
+    padding-top:10px;
+}
+header i:hover {
+    color: #302dd8;
+    cursor: pointer;
 }
 a {
     color: white;
     text-decoration: none;
+}
+a:hover{
+    color:#302dd8
+
 }
 footer {
     padding-top: 10px;
