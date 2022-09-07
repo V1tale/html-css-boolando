@@ -6,13 +6,22 @@
 }
 html {
     font-size: 62.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
     width:100%;
 }
 header {
     background-color: #ff6900;
+    /* padding: 10px 0; */
+    font-size: 1.4rem;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+    width: 100%;
+    padding: 10px;
 }
 .container {
     width: 70%;
@@ -23,21 +32,19 @@ header {
     padding: 5px;
 
 }
-/* .left-part {
-height:50px;
-width: 100px;
-background-color: blue;
-} */
 .central-part {
-    height:50px;
     width: 100px;
-    background-color: blueviolet;
     flex-grow: 1;
+    text-align: center;
+}
+#logo {
+    height: 50px;
 }
 .right-part {
-    height:50px;
     width: 100px;
-    background-color: red;
+    color: white;
+    text-align: right;
+
 }
 .central-part > img {
     width: 10%;
@@ -94,23 +101,23 @@ footer {
 .red {
     background-color: red;
     left: 5px;
-    bottom: 80px;
+    bottom: 100px;
 }
 .green {
     background-color: green;
-    left: 55px;
-    bottom: 80px;
+    left: 60px;
+    bottom: 100px;
 }
 .text {
     width: 100%;
-    padding: 10px 0 0 0;
+    padding: 5px 0 0 0;
 }
 .text :nth-child(4) {
     color: red;
     font-size:1.2rem;
     font-weight:bold;
 }
-.text :nth-child(5) {
+.price {
     text-decoration: line-through;
     font-size:1.2rem;
     font-weight:bold;
@@ -129,4 +136,20 @@ second-picture{
 }
 .block:hover .first-picture {
     display: none;
+}
+.footer1 h3 {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+.footer1 a {
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+.footer2 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+.footer2 i {
+    font-size: 2.5rem;
+    margin: 10px 3px;
 }
