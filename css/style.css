@@ -19,7 +19,6 @@ header {
 }
 .flex-container {
     display: flex;
-    justify-content: center;
     padding: 5px;
 
 }
@@ -38,4 +37,16 @@ background-color: blue;
     height:50px;
     width: 100px;
     background-color: red;
+}
+.block {
+    width: calc(100% / 3);
+    height: 400px;
+    margin: 10px auto;
+    background-color: green;
+    border: 1px solid black;
+}
+.blocks {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
 }
